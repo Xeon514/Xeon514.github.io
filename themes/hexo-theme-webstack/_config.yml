@@ -1,0 +1,151 @@
+favicon: /favicon.ico
+banner: /images/webstack_banner_cn.png
+
+logo:
+  expanded: /images/logo@2x.png
+  collapsed: /images/logo-collapsed@2x.png
+  dark: /images/logo_dark@2x.png
+
+flag:
+  - name: Chinese
+    default: true
+    icon: flag-cn
+    index: /index.html
+
+search: true
+
+userDefinedSearchData:
+  custom: false
+  thisSearch: https://www.baidu.com/s?wd=
+  thisSearchIcon: url(https://www.baidu.com/favicon.ico)
+  hotStatus: true
+  data:
+    - name: 百度
+      img: url(https://www.baidu.com/favicon.ico)
+      url: https://www.baidu.com/s?wd=
+
+
+expandAll: false
+menu:
+  - name: 测试页面
+    icon: far fa-star
+    config: testPage
+  - name: 常用软件
+    icon: far fa-star
+    config: hotApps
+  - name: 其他工具
+    icon: fas fa-tools
+    submenu:
+      - name: 开发工具
+        icon: fas fa-tools
+        config: devTools
+      - name: 我的博客
+        icon: fas fa-blog
+        config: myBlog
+
+hotApps:
+  - name: TIM
+    url: https://office.qq.com/download.html
+    img: /images/logos/TIM.png
+    description: 聊天软件QQ的企业版，没有弹窗
+  - name: 微信
+    url: https://pc.weixin.qq.com
+    img: /images/logos/weixin.png
+    description: 国内两大聊天软件之一
+  - name: 搜狗输入法
+    url: https://pinyin.sogou.com
+    img: /images/logos/SogouInput.png
+    description: 老牌稳定好用输入法之一 
+  - name: 网易云音乐
+    url: https://music.163.com/#/download
+    img: /images/logos/CloudMusic.png
+    description: 只是版权有点少
+  - name: 火绒
+    url: https://www.huorong.cn
+    img: /images/logos/huorong.png
+    description: 安静轻量的杀毒软件 
+  - name: 谷歌浏览器
+    url: https://www.google.cn/chrome/index.html
+    img: /images/logos/Chrome.png
+    description: 最好用，插件最多的浏览器 
+  - name: bandizip
+    url: https://www.bandisoft.com/bandizip/
+    img: /images/logos/bandizip.png
+    description: 个人认为最好用的压缩软件 
+  - name: PotPlayer
+    url: http://www.potplayercn.com/download
+    img: /images/logos/potplayer.png
+    description: 强大的视频播放软件 
+testPage:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+devTools:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+myBlog:
+
+
+about:
+  url: /about/
+  icon: far fa-heart
+  name: 关于本站
+
+aboutPage:
+  website:
+    head: 关于本站
+    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+  webmaster:
+    head: 关于站长
+    name: HCLonely
+    url: https://blog.hclonely.com/
+    img: /images/logos/myblog.png
+    description: 懒人一个
+    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
+
+since: 2018
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
