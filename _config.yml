@@ -30,9 +30,9 @@ menu:
   - name: 测试页面
     icon: far fa-star
     config: testPage
-  - name: 常用工具
+  - name: 常用软件
     icon: far fa-star
-    config: hotTools
+    config: hotApps
   - name: 其他工具
     icon: fas fa-tools
     submenu:
@@ -43,26 +43,52 @@ menu:
         icon: fas fa-blog
         config: myBlog
 
+hotApps:
+  - name: TIM
+    url: https://office.qq.com/download.html
+    img: /images/logos/TIM.png
+    description: 聊天软件QQ的企业版，没有弹窗
+  - name: 微信
+    url: https://pc.weixin.qq.com
+    img: /images/logos/weixin.png
+    description: 国内两大聊天软件之一
+  - name: 搜狗输入法
+    url: https://pinyin.sogou.com
+    img: /images/logos/SogouInput.png
+    description: 老牌稳定好用输入法之一 
+  - name: 网易云音乐
+    url: https://music.163.com/#/download
+    img: /images/logos/CloudMusic.png
+    description: 只是版权有点少
+  - name: 火绒
+    url: https://www.huorong.cn
+    img: /images/logos/huorong.png
+    description: 安静轻量的杀毒软件 
+  - name: 谷歌浏览器
+    url: https://www.google.cn/chrome/index.html
+    img: /images/logos/Chrome.png
+    description: 最好用，插件最多的浏览器 
+  - name: bandizip
+    url: https://www.bandisoft.com/bandizip/
+    img: /images/logos/bandizip.png
+    description: 个人认为最好用的压缩软件 
+  - name: PotPlayer
+    url: http://www.potplayercn.com/download
+    img: /images/logos/potplayer.png
+    description: 强大的视频播放软件 
 testPage:
   - name: Child Page
     url: /child
     img: /images/logos/myblog.png
     description: 子页面测试
 devTools:
-  - name: TIM
-    url: https://office.qq.com/download.html
-    img: /images/logos/TIM.png
-    description: 聊天软件QQ的企业版，没有弹窗
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
     description: 面向开源及私有软件项目的托管平台。
 
 myBlog:
-  - name: HCLonely Blog
-    url: https://blog.hclonely.com/
-    img: /images/logos/myBlog.png
-    description: 一个懒人的博客。
+
 
 about:
   url: /about/
